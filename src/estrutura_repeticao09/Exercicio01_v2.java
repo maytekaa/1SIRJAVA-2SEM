@@ -1,6 +1,8 @@
+package estrutura_repeticao09;
+
 import java.util.Scanner;
 
-public class Exercicio01_v1 {
+public class Exercicio01_v2 {
 
     static void main() {
         Scanner sc = new Scanner(System.in);
@@ -15,12 +17,13 @@ public class Exercicio01_v1 {
         }
 
         else {
-            for (int cont = 1; cont <= valor; cont ++) {
+            for (int cont = 1; cont < valor; cont ++) {
                 if( valor % cont == 0){
                     total++;
+                    break;
                 }
             }
-            if (total == 2){
+            if (total == 0){
                 System.out.println("Primo");
             }
             else {

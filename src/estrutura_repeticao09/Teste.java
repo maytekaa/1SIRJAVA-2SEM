@@ -1,3 +1,5 @@
+package estrutura_repeticao09;
+
 public class Teste {
 
     static void main() {
